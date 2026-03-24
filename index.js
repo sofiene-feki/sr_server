@@ -21,8 +21,8 @@ const app = express();
 // Implement CORS - MUST BE FIRST to handle preflight OPTIONS
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://dev-env-pmc.netlify.app",
-  "https://pmc-server.onrender.com", // Adding common production pattern
+  "https://dev-env-sr.netlify.app",
+  "https://sr-server.onrender.com", // Adding common production pattern
   process.env.CLIENT_URL
 ].filter(Boolean);
 
